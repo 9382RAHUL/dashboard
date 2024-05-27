@@ -1,39 +1,93 @@
 const Table = () => {
     const dataset = [
         {
-          Name: 'Based on premium',
-          Calmar_Ratio: 2.02,
-          Overall_Profit: 194096.05,
-          Avg_Daily_Profit: 158.45,
-          Win_Pcn_Day: 0.62,
-          Price: 500,
+          Name: 'Selling with re entr',
+          Calmar_Ratio: 3.96,
+          Overall_Profit: 	381845,
+          Avg_Daily_Profit: 319.54	,
+          Win_Pcn_Day: 0.65,
+          Price: 0,
           Action: 'View'
         },
         {
-          Name: 'Based on premium',
-          Calmar_Ratio: 2.02,
-          Overall_Profit: 194096.05,
-          Avg_Daily_Profit: 158.45,
-          Win_Pcn_Day: 0.62,
-          Price: 500,
+          Name: 'strategy_name',
+          Calmar_Ratio: 3.62,
+          Overall_Profit: 	268872.5,
+          Avg_Daily_Profit: 216.31,
+          Win_Pcn_Day: 0.64,
+          Price:500,
+          Action: 'Buy'
+        },
+        {
+          Name: 'Based on premium and',
+          Calmar_Ratio: 3.42,
+          Overall_Profit: 	255425,
+          Avg_Daily_Profit: 208.51,
+          Win_Pcn_Day: 0.64,
+          Price: 0,
           Action: 'View'
         },
         {
-          Name: 'Based on premium',
-          Calmar_Ratio: 2.02,
-          Overall_Profit: 194096.05,
-          Avg_Daily_Profit: 158.45,
-          Win_Pcn_Day: 0.62,
-          Price: 500,
+          Name: 'strategy_name',
+          Calmar_Ratio: 3.22,
+          Overall_Profit: 370845,
+          Avg_Daily_Profit: 303.47,
+          Win_Pcn_Day: 0.65,
+          Price:0 ,
           Action: 'View'
         },
         {
-          Name: 'Based on premium',
-          Calmar_Ratio: 2.02,
-          Overall_Profit: 194096.05,
-          Avg_Daily_Profit: 158.45,
+          Name: 'strategy_name',
+          Calmar_Ratio: 3.22,
+          Overall_Profit: 370845,
+          Avg_Daily_Profit: 303.47,
+          Win_Pcn_Day: 0.65,
+          Price: 0,
+          Action: 'View'
+        },
+        {
+          Name: 'Based on premium wit',
+          Calmar_Ratio: 3.01,
+          Overall_Profit: 135980,
+          Avg_Daily_Profit: 185.77,
+          Win_Pcn_Day: 0.49,
+          Price: 0,
+          Action: 'View'
+        },
+        {
+          Name: 'strategy_name',
+          Calmar_Ratio: 2.76,
+          Overall_Profit: 267867.5,
+          Avg_Daily_Profit: 218.49,
+          Win_Pcn_Day: 0.6,
+          Price: 0,
+          Action: 'View'
+        },
+        {
+          Name: 'Wait and trade_Save',
+          Calmar_Ratio: 2.62,
+          Overall_Profit: 	267867.5,
+          Avg_Daily_Profit: 161.9,
+          Win_Pcn_Day: 0.63,
+          Price: 0,
+          Action: 'View'
+        },
+        {
+          Name: 'iron condor',
+          Calmar_Ratio: 2.44,
+          Overall_Profit: 178252.5,
+          Avg_Daily_Profit: 137.51,
+          Win_Pcn_Day: 0.65,
+          Price:0,
+          Action: 'View'
+        },
+        {
+          Name: 'strategy_name',
+          Calmar_Ratio: 2.04,
+          Overall_Profit:244555,
+          Avg_Daily_Profit: 198.66,
           Win_Pcn_Day: 0.62,
-          Price: 500,
+          Price: 0,
           Action: 'View'
         },
       ]
@@ -77,7 +131,7 @@ const Table = () => {
                                 // eslint-disable-next-line react/prop-types
                                 dataset?.map((data, id) => {
                                     return (
-                                        <tr className="even:bg-white  odd:bg-pink-base rounded hover:scale-x-[1.01] duration-300" key={id}>
+                                        <tr className="even:bg-white  odd:bg-pink-200 rounded hover:scale-x-[1.01] duration-300" key={id}>
                                             <th scope="row" className="px-6 py-6 whitespace-nowrap font-medium text-gray-900 rounded-l-lg ">
                                                 {id + 1}
                                             </th>

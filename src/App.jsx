@@ -2,6 +2,7 @@
 import { FaNoteSticky, FaRegNoteSticky } from "react-icons/fa6";
 import { HiBell, HiCurrencyRupee } from "react-icons/hi";
 import { MdCandlestickChart, MdDashboard, MdDocumentScanner, MdInsertChart } from "react-icons/md";
+
 import { NavLink } from "react-router-dom";
 
 export default function App(props) {
@@ -11,39 +12,43 @@ export default function App(props) {
         <div className="w-[80px] text-white bg-gradient-to-b from-[#0F3556] to-[#17558b] h-full rounded-xl p-4 ">
           <div className="text-[40px] flex flex-col justify-around items-center h-full">
             <NavLink className="cursor-pointer" to={'/'}>
-              <MdDashboard className="hover:bg-[#ffffff40] p-2 duration-300 transform rounded-lg cursor-pointer" />
+              <MdDashboard className="hover:bg-[#ffffff40] p-2 duration-300 transform rounded-lg cursor-pointer bg-pink-300" />
             </NavLink>
             <NavLink className="cursor-pointer" to={'/scanners'}>
-              <MdCandlestickChart className="hover:bg-[#ffffff40] p-2 duration-300 transform rounded-lg cursor-pointer" />
+              <MdCandlestickChart className="hover:bg-[#ffffff40] p-2 duration-300 transform rounded-lg cursor-pointer  bg-pink-300" />
             </NavLink>
             <NavLink className="cursor-pointer" to={'/'}>
-              <MdInsertChart className="hover:bg-[#ffffff40] p-2 duration-300 transform rounded-lg cursor-pointer" />
+              <MdInsertChart className="hover:bg-[#ffffff40] p-2 duration-300 transform rounded-lg cursor-pointer  bg-pink-300" />
             </NavLink>
             <NavLink className="cursor-pointer" to={'/'}>
-              <MdDocumentScanner className="hover:bg-[#ffffff40] p-2 duration-300 transform rounded-lg cursor-pointer" />
+              <MdDocumentScanner className="hover:bg-[#ffffff40] p-2 duration-300 transform rounded-lg cursor-pointer  bg-pink-300" />
             </NavLink>
             <NavLink className="cursor-pointer" to={'/'}>
-              <HiBell className="hover:bg-[#ffffff40] p-2 duration-300 transform rounded-lg cursor-pointer" />
+              <HiBell className="hover:bg-[#ffffff40] p-2 duration-300 transform rounded-lg cursor-pointer  bg-pink-300" />
             </NavLink>
             <NavLink className="cursor-pointer" to={'/'}>
-              <FaRegNoteSticky className="hover:bg-[#ffffff40] p-2 duration-300 transform rounded-lg cursor-pointer" />
+              <FaRegNoteSticky className="hover:bg-[#ffffff40] p-2 duration-300 transform rounded-lg cursor-pointer  bg-pink-300" />
             </NavLink>
             <NavLink className="cursor-pointer" to={'/'}>
-              <FaNoteSticky className="hover:bg-[#ffffff40] p-2 duration-300 transform rounded-lg cursor-pointer" />
+              <FaNoteSticky className="hover:bg-[#ffffff40] p-2 duration-300 transform rounded-lg cursor-pointer  bg-pink-300" />
             </NavLink>
             <NavLink className="cursor-pointer" to={'/'}>
-              <HiCurrencyRupee className="hover:bg-[#ffffff40] p-2 duration-300 transform rounded-lg cursor-pointer" />
+              <HiCurrencyRupee className="hover:bg-[#ffffff40] p-2 duration-300 transform rounded-lg cursor-pointer   bg-pink-300" />
             </NavLink>
           </div>
         </div>
 
 
-        <div className="p-4 w-full overflow-auto">
-          <div className="flex flex-row w-full h-auto justify-between mb-8">
+        <div className="p-4 w-full overflow-auto ">
+          <div className="flex flex-row w-full h-20 justify-between mb-8 shadow-sm shadow-pink-400 rounded-md">
             <NavLink className="" to={"/"}>
-              <img src="https://unfluke.in/static/media/cropped_unfluke_full.148e5bfc.png" className="w-[100px] h-auto" />
+              <img src="https://unfluke.in/static/media/cropped_unfluke_full.148e5bfc.png" className="w-[125px] h-auto ml-4 mt-4" />
             </NavLink>
-            <img src="https://qash-react-omega.vercel.app/static/media/2.54e869c1f9d853c8f5f8.png" className="w-[30px] h-[30px]" />
+
+            
+            <img src="https://qash-react-omega.vercel.app/static/media/2.54e869c1f9d853c8f5f8.png" className="w-[35px] h-[35px] mt-4 mr-4" />
+        
+
           </div>
 
           {props.Component}
