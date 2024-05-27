@@ -46,7 +46,7 @@ export default function App(props) {
             </NavLink>
 
             
-            <img src="https://qash-react-omega.vercel.app/static/media/2.54e869c1f9d853c8f5f8.png" className="w-[35px] h-[35px] mt-4 mr-4" />
+            <img src="https://img.freepik.com/free-photo/3d-rendering-cartoon-like-boy-playing-tennis_23-2150797688.jpg?t=st=1716842801~exp=1716846401~hmac=fe48d3fe93282b3019a400beede2f3170bf23cf47bc22ed788d6c2da7f2cd266&w=996" className="w-[35px] h-[35px] mt-4 mr-4 rounded-full" />
         
 
           </div>
